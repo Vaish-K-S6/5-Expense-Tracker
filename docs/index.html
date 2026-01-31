@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expense Tracker | Vaihit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>💰 Expense Tracker</h1>
+
+    <div class="input-section">
+        <input type="number" id="amountInput" placeholder="Amount (₹)">
+        <input type="text" id="categoryInput" placeholder="Category">
+        <input type="date" id="dateInput">
+        <button onclick="addExpense()">Add Expense</button>
+    </div>
+
+    <ul id="expenseList"></ul>
+
+    <h3 id="total">Total Spent: ₹0</h3>
+
+    <footer>Built under <strong>Vaihit</strong></footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
